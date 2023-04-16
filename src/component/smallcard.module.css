@@ -1,0 +1,32 @@
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 15px;
+    background-color: #edf2f8;
+    padding: 10px;
+    gap: 10px;
+}
+
+.cont > div{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont > div:nth-child(2){
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .cont > div img{
+        width: 70%;
+    }
+}

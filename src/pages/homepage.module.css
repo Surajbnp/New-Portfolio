@@ -1,0 +1,403 @@
+.container {
+  left: 0px;
+  margin-top: 65px;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f51720;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.container > div {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.active {
+  font-weight: 600;
+  border-bottom: 3px solid #f51720;
+}
+
+.sec1 {
+  font-family: "Ubuntu", sans-serif;
+  justify-content: center;
+  background-image: url("https://tailwindui.com/img/beams-home@95.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #b0b7c0;
+  width: 100%;
+  height: fit-content;
+}
+
+.sec1 > div {
+  width: 40%;
+  height: 80vh;
+}
+
+.small1 {
+  background-image: url("https://user-images.githubusercontent.com/97525465/232208523-4925c1ae-5e6a-4c81-a88c-e9b7f8a00a11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resumebtn {
+  background-color: #f51720;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.resumebtn:hover {
+  border: 2px solid #f51720;
+  color: #f51720;
+  background-color: #edf2f8;
+}
+
+.secName {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  padding: 40px;
+}
+
+.redTxt {
+  color: #f51720;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+/* Section 2 CSS started  -----------------------------------------------> */
+
+.sec2 {
+}
+
+.sec2 > div {
+  width: 100%;
+  height: 80vh;
+  box-sizing: border-box;
+}
+
+.sec2 > div:nth-child(1) {
+  background-image: url("https://user-images.githubusercontent.com/97525465/232209731-ba3a0023-7141-4591-8bf8-f87364170818.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 600px;
+}
+
+.sec2 > div:nth-child(2) {
+  text-align: start;
+  box-sizing: border-box;
+  /* padding: 30px 50px 30px 10px; */
+  font-weight: 400;
+  word-spacing: 3px;
+}
+
+.aboutSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Section 3 CSS started  -----------------------------------------------> */
+
+.sec3 {
+  background-color: #edf2f8;
+}
+
+.projSec {
+  display: grid;
+  padding: 40px;
+  gap: 70px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.projSec > div {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* Section 4 CSS started  -----------------------------------------------> */
+
+.sec4 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 30px;
+  padding: 30px;
+  margin-top: 80px;
+}
+
+/* Section 5 CSS started  -----------------------------------------------> */
+
+.sec5 {
+  height: fit-content;
+}
+
+/* Sec 6 ----------------------------------------------------------------------> */
+
+.sec6 {
+  margin-top: 30px;
+}
+
+.sec6 > div {
+  width: 100%;
+  padding: 20px;
+}
+
+.contact {
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  width: fit-content;
+}
+
+.contact > div {
+  gap: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  align-items: center;
+}
+
+.contact > div > div:nth-child(1) {
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #f51720;
+  color: white;
+}
+
+.contact > div > div:nth-child(1):hover {
+  background-color: white;
+  border: 3px solid #f51720;
+  color: black;
+  transition: 0.5s;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*  For Navbar */
+
+  .container > div {
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .secName {
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+    padding: 20px;
+  }
+
+  /* ----------------------------------- */
+
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+
+  .sec1 > div {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .sec1 > div:nth-child(2) {
+    height: 40vh;
+  }
+
+  /* --------------------------------- */
+
+  .sec2 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .sec2 > div {
+    height: fit-content;
+  }
+
+  .sec2 > div:nth-child(1) {
+    height: 40vh;
+    background-size: contain;
+  }
+
+  .aboutSec {
+    font-size: 16px;
+    padding: 30px;
+  }
+
+  /* ----------------------------------- */
+
+  .projSec {
+    width: 100%;
+    display: grid;
+    padding: 0px;
+    padding-bottom: 20px;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ------------------------------------------ */
+
+  .sec4 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 0px;
+    margin-top: 50px;
+  }
+
+  /* ----------------------------------------------- */
+
+  .sec6 {
+    flex-direction: column-reverse;
+  }
+
+  .sec6 > div {
+    font-size: 24px;
+  }
+
+  .contact {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container > div {
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .secName {
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    padding: 20px;
+  }
+
+  .resumebtn {
+    width: 100px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /* ----------------------------------- */
+
+  .sec1 {
+    flex-direction: column-reverse;
+  }
+
+  .sec1 > div {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .sec1 > div:nth-child(2) {
+    height: 40vh;
+  }
+
+  /* --------------------------------- */
+
+  .sec2 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .sec2 > div {
+    height: fit-content;
+  }
+
+  .sec2 > div:nth-child(1) {
+    height: 40vh;
+    background-size: contain;
+  }
+
+  .aboutSec {
+    font-size: 12px;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  /* ----------------------------------- */
+
+  .projSec {
+    width: 100%;
+    display: grid;
+    padding: 0px;
+    padding-bottom: 20px;
+    gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* ------------------------------------------ */
+
+  .sec4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 0px;
+    margin-top: 50px;
+  }
+
+  /* ----------------------------------------------- */
+
+  .sec6 {
+    flex-direction: column-reverse;
+  }
+
+  .sec6 > div {
+    font-size: 18px;
+  }
+
+  .contact {
+    gap: 10px;
+  }
+  .contact > div > div{
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .contact > div{
+    gap: 10px;
+  }
+
+  .lastTxt{
+    font-size: 10px;
+    padding: 5px;
+  }
+}

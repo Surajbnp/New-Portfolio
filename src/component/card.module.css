@@ -1,0 +1,50 @@
+.container{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.container > p{
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.desc{
+    text-align: start;
+    font-weight: 400;
+}
+
+.redTxt{
+    color: #f51720;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.techStack{
+    text-align: start;
+    font-weight: 400;
+}
+
+.icons{
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.icons > div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s;
+}
+
+.icons > div:hover{
+   background-color: #f51720;
+   color: white;
+}
