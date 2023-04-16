@@ -111,7 +111,7 @@ body {
 }
 
 .sec2 > div:nth-child(1) {
-  background-image: url("https://user-images.githubusercontent.com/97525465/232209731-ba3a0023-7141-4591-8bf8-f87364170818.png");
+  background-image: url("https://static.wixstatic.com/media/b0c46e_20bb6d15121546ff81dacd75da192c3d~mv2.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 600px;
@@ -348,8 +348,8 @@ body {
   }
 
   .sec2 > div:nth-child(1) {
-    height: 40vh;
-    background-size: contain;
+    height: 45vh;
+    background-size: 330px;
   }
 
   .aboutSec {
