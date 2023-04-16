@@ -36,7 +36,7 @@ const HomePage = () => {
 
   return (
     <Box className={styles.container}>
-      <Flex border={"1px solid red"} className={styles.sec1} id="section1">
+      <Flex className={styles.sec1} id="section1">
         <Flex justify={"center"} align={"center"}>
           <Box textAlign={"start"}>
             <Text fontSize={{base : "18px" , md : "25px"}}>Hello, my name is</Text>
@@ -107,7 +107,7 @@ const HomePage = () => {
           </Box>
         </Flex>
       </Box>
-      <Box className={styles.sec3} id="section3" min-height="100vh">
+      <Box className={styles.sec3} id="section3">
         <Text className={styles.secName}>
           My <span className={styles.redTxt}>Creativity</span>And{" "}
           <span className={styles.redTxt}>Projects</span>

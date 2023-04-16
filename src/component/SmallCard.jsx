@@ -8,7 +8,7 @@ const SmallCard = ({image, name}) => {
       <Box w='50%'>
         <img width={'100%'} src={image} alt="skills" />
       </Box>
-      <Box>{name}</Box>
+      <Text>{name}</Text>
     </Box>
   )
 }
