@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/New-Portfolio/static/css/main.093b2007.css",
+    "main.js": "/New-Portfolio/static/js/main.59167b87.js",
+    "static/js/787.05863bdd.chunk.js": "/New-Portfolio/static/js/787.05863bdd.chunk.js",
+    "static/media/Suraj_Kumar_Gupta_Resume.pdf": "/New-Portfolio/static/media/Suraj_Kumar_Gupta_Resume.afd73dfcceab11bd57f2.pdf",
+    "index.html": "/New-Portfolio/index.html",
+    "main.093b2007.css.map": "/New-Portfolio/static/css/main.093b2007.css.map",
+    "main.59167b87.js.map": "/New-Portfolio/static/js/main.59167b87.js.map",
+    "787.05863bdd.chunk.js.map": "/New-Portfolio/static/js/787.05863bdd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.093b2007.css",
+    "static/js/main.59167b87.js"
+  ]
+}
