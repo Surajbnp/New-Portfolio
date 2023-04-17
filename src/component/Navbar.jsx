@@ -107,9 +107,9 @@ export default function Navbar() {
                   Contact
                 </ScrollLink>
               </Flex>
-              <Button onClick={toggleColorMode}>
+              {/* <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-              </Button>
+              </Button> */}
             </HStack>
           </HStack>
           <IconButton
@@ -125,9 +125,75 @@ export default function Navbar() {
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
               {/*  add link here */}
-              <Button onClick={toggleColorMode}>
+              <ScrollLink
+                  to="section1"
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                  spy={true}
+                  exact="true"
+                  activeClass={styles.active}
+                >
+                  Dashborad
+                </ScrollLink>
+                <ScrollLink
+                  to="section2"
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                  spy={true}
+                  exact="true"
+                  activeClass={styles.active}
+                >
+                  About
+                </ScrollLink>
+                <ScrollLink
+                  to="section3"
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                  spy={true}
+                  exact="true"
+                  activeClass={styles.active}
+                >
+                  Projects
+                </ScrollLink>
+                <ScrollLink
+                  to="section4"
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                  spy={true}
+                  exact="true"
+                  activeClass={styles.active}
+                >
+                  Skills
+                </ScrollLink>
+                <ScrollLink
+                  to="section5"
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                  spy={true}
+                  exact="true"
+                  activeClass={styles.active}
+                >
+                  Github Overview
+                </ScrollLink>
+                <ScrollLink
+                  to="section6"
+                  smooth={true}
+                  duration={500}
+                  offset={-80}
+                  spy={true}
+                  exact="true"
+                  activeClass={styles.active}
+                >
+                  Contact
+                </ScrollLink>
+              {/* <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-              </Button>
+              </Button> */}
             </Stack>
           </Box>
         ) : null}

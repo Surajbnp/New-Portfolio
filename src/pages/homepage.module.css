@@ -102,6 +102,7 @@ body {
 /* Section 2 CSS started  -----------------------------------------------> */
 
 .sec2 {
+  height: fit-content;
 }
 
 .sec2 > div {
@@ -239,6 +240,7 @@ body {
     height: 40vh;
   }
 
+
   /* --------------------------------- */
 
   .sec2 {
@@ -253,6 +255,10 @@ body {
   .sec2 > div:nth-child(1) {
     height: 40vh;
     background-size: contain;
+  }
+
+    .sec2 > div:nth-child(1) {
+    background-size: 530px;
   }
 
   .aboutSec {
@@ -270,6 +276,7 @@ body {
     gap: 15px;
     grid-template-columns: repeat(2, 1fr);
   }
+  
 
   /* ------------------------------------------ */
 
@@ -296,6 +303,15 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+
+  .active {
+    font-weight: 600;
+    border-bottom: none;
+    color: #f51720;
+  }
+
+
   .container > div {
     padding: 20px;
     padding-bottom: 40px;
@@ -333,7 +349,7 @@ body {
   }
 
   .small1{
-    background-size: 500px;
+    background-size: 530px;
   }
 
   /* --------------------------------- */

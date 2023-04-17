@@ -58,7 +58,7 @@ const HomePage = () => {
         </Flex>
         <Box className={styles.small1}></Box>
       </Flex>
-      <Box id="section2" w={"100%"} height="100vh" boxSize={"border-box"}>
+      <Box id="section2" w={"100%"} boxSize={"border-box"}>
         <Text className={styles.secName}>
           <span className={styles.redTxt}>About</span> Me
         </Text>
