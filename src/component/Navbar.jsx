@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { useState } from "react";
 import {
   Box,
   Flex,
@@ -8,7 +8,6 @@ import {
   Text,
   useColorMode,
   Stack,
-  Button,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
@@ -17,7 +16,11 @@ import styles from "../pages/homepage.module.css";
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { colorMode, toggleColorMode } = useColorMode();
+  // const { colorMode, toggleColorMode } = useColorMode();
+
+  const handleClick = () => {
+    onClose();
+  };
 
   return (
     <>
@@ -126,71 +129,77 @@ export default function Navbar() {
             <Stack as={"nav"} spacing={4}>
               {/*  add link here */}
               <ScrollLink
-                  to="section1"
-                  smooth={true}
-                  duration={500}
-                  offset={-80}
-                  spy={true}
-                  exact="true"
-                  activeClass={styles.active}
-                >
-                  Dashborad
-                </ScrollLink>
-                <ScrollLink
-                  to="section2"
-                  smooth={true}
-                  duration={500}
-                  offset={-80}
-                  spy={true}
-                  exact="true"
-                  activeClass={styles.active}
-                >
-                  About
-                </ScrollLink>
-                <ScrollLink
-                  to="section3"
-                  smooth={true}
-                  duration={500}
-                  offset={-80}
-                  spy={true}
-                  exact="true"
-                  activeClass={styles.active}
-                >
-                  Projects
-                </ScrollLink>
-                <ScrollLink
-                  to="section4"
-                  smooth={true}
-                  duration={500}
-                  offset={-80}
-                  spy={true}
-                  exact="true"
-                  activeClass={styles.active}
-                >
-                  Skills
-                </ScrollLink>
-                <ScrollLink
-                  to="section5"
-                  smooth={true}
-                  duration={500}
-                  offset={-80}
-                  spy={true}
-                  exact="true"
-                  activeClass={styles.active}
-                >
-                  Github Overview
-                </ScrollLink>
-                <ScrollLink
-                  to="section6"
-                  smooth={true}
-                  duration={500}
-                  offset={-80}
-                  spy={true}
-                  exact="true"
-                  activeClass={styles.active}
-                >
-                  Contact
-                </ScrollLink>
+                to="section1"
+                smooth={true}
+                duration={500}
+                offset={-80}
+                spy={true}
+                exact="true"
+                activeClass={styles.active}
+                onClick={handleClick}
+              >
+                Dashborad
+              </ScrollLink>
+              <ScrollLink
+                to="section2"
+                smooth={true}
+                duration={500}
+                offset={-80}
+                spy={true}
+                exact="true"
+                activeClass={styles.active}
+                onClick={handleClick}
+              >
+                About
+              </ScrollLink>
+              <ScrollLink
+                to="section3"
+                smooth={true}
+                duration={500}
+                offset={-80}
+                spy={true}
+                exact="true"
+                activeClass={styles.active}
+                onClick={handleClick}
+              >
+                Projects
+              </ScrollLink>
+              <ScrollLink
+                to="section4"
+                smooth={true}
+                duration={500}
+                offset={-80}
+                spy={true}
+                exact="true"
+                activeClass={styles.active}
+                onClick={handleClick}
+              >
+                Skills
+              </ScrollLink>
+              <ScrollLink
+                to="section5"
+                smooth={true}
+                duration={500}
+                offset={-80}
+                spy={true}
+                exact="true"
+                activeClass={styles.active}
+                onClick={handleClick}
+              >
+                Github Overview
+              </ScrollLink>
+              <ScrollLink
+                to="section6"
+                smooth={true}
+                duration={500}
+                offset={-80}
+                spy={true}
+                exact="true"
+                activeClass={styles.active}
+                onClick={handleClick}
+              >
+                Contact
+              </ScrollLink>
               {/* <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
               </Button> */}

@@ -1,7 +1,11 @@
 import { Box, Text, Flex } from "@chakra-ui/react";
 import React from "react";
 import styles from "./card.module.css";
-import { BsFillCameraVideoFill, BsGithub, BsFillCameraVideoOffFill } from "react-icons/bs";
+import {
+  BsFillCameraVideoFill,
+  BsGithub,
+  BsFillCameraVideoOffFill,
+} from "react-icons/bs";
 import { AiFillEye } from "react-icons/ai";
 
 const Card = ({
@@ -15,16 +19,19 @@ const Card = ({
 }) => {
   return (
     <Box className={styles.container}>
-      <Box
-        borderRadius={"15px"}
-        backgroundImage={image}
-        backgroundSize={"cover"}
-        backgroundPosition={"center"}
-        backgroundRepeat={"no-repeat"}
-        height={"30vh"}
-        border={"2px solid grey"}
-        overflow={"hidden"}
-      ></Box>
+      <Box h={"25vh"}>
+        <img
+          style={{
+            border: "2px solid grey",
+            borderRadius: "5px",
+            objectFit: "cover",
+            width: "100%",
+            height: "100%",
+          }}
+          src={image}
+          alt=""
+        />
+      </Box>
       <Text className={styles.name}>{projectName}</Text>
       <Text className={styles.desc}>{desc}</Text>
       <Text className={styles.techStack}>
@@ -36,7 +43,11 @@ const Card = ({
       <Flex className={styles.icons}>
         <Box>
           <a href={presentationLink} target="_blank">
-            {presentationLink === null ? <BsFillCameraVideoOffFill size={30} /> : <BsFillCameraVideoFill size={30} />}
+            {presentationLink === null ? (
+              <BsFillCameraVideoOffFill size={30} />
+            ) : (
+              <BsFillCameraVideoFill size={30} />
+            )}
           </a>
         </Box>
         <Box>
