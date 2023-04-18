@@ -22,6 +22,27 @@ const Projects = [
   },
   {
     image:
+      "https://user-images.githubusercontent.com/97525465/224216381-6d4ac7b8-625c-4ec1-b581-22f51f057985.png",
+    projectName: "Masai Onwards",
+    desc: "This platform is a clone of Masai Course Platform, we build full fledged website where a student can enroll, give MSAT Test and apply for different-different course provided by masai.",
+    techStack: [
+      "React",
+      "Redux",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      " Chakra-UI",
+      "Nodejs",
+      " Express",
+      "Mongoose"
+
+    ],
+    presentationLink: null,
+    liveLink: "https://team8-prepleaf-project.netlify.app/",
+    githubLink: "https://github.com/masai-builds/Team8",
+  },
+  {
+    image:
       "https://user-images.githubusercontent.com/77965216/193405972-afbf956f-f37b-42db-b92f-7a84a6ef8add.png",
     projectName: "Everhour Clone",
     desc: "Everhour is the time tracking website, which provides you the hassels free experiance to the user. You can track time of project, assign a project to someone, create a project & much more.",
@@ -56,7 +77,8 @@ const Projects = [
       " Express",
       "Mongoose",
     ],
-    presentationLink: "https://drive.google.com/file/d/1uwMfztHsDtzQ4hS0xJCVQtfkI0dsRf-7/view",
+    presentationLink:
+      "https://drive.google.com/file/d/1uwMfztHsDtzQ4hS0xJCVQtfkI0dsRf-7/view",
     liveLink: "https://63749cfcbfcf1b25a51bea10--indiegogoweb.netlify.app/",
     githubLink: "https://github.com/Surajbnp/Indiegogo-Clone",
   },

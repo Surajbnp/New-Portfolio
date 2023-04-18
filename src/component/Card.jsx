@@ -24,7 +24,7 @@ const Card = ({
           style={{
             border: "2px solid grey",
             borderRadius: "5px",
-            objectFit: "cover",
+            objectFit: "contain",
             width: "100%",
             height: "100%",
           }}
