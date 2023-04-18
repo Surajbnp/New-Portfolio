@@ -52,7 +52,7 @@ export default function Navbar() {
                   exact="true"
                   activeClass={styles.active}
                 >
-                  Dashborad
+                  Dashboard
                 </ScrollLink>
                 <ScrollLink
                   to="section2"
@@ -138,7 +138,7 @@ export default function Navbar() {
                 activeClass={styles.active}
                 onClick={handleClick}
               >
-                Dashborad
+                Dashboard
               </ScrollLink>
               <ScrollLink
                 to="section2"
