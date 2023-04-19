@@ -18,7 +18,7 @@ const Projects = [
     ],
     presentationLink: null,
     liveLink: "https://votek.netlify.app/",
-    githubLink: "https://github.com/masai-builds/Votek",
+    githubLink: null,
   },
   {
     image:
@@ -39,7 +39,7 @@ const Projects = [
     ],
     presentationLink: null,
     liveLink: "https://team8-prepleaf-project.netlify.app/",
-    githubLink: "https://github.com/masai-builds/Team8",
+    githubLink: null,
   },
   {
     image:
@@ -87,7 +87,7 @@ const Projects = [
       "https://user-images.githubusercontent.com/97525465/161365301-89ff1ddc-71ae-4c54-b00f-388049c37454.png",
     projectName: "Tanishq Clone",
     desc: "This project is the clone of Tanishq website with offers e-commerce platform for jewellery products. We provided wonderful UI, dynamic navigation bar, various searching, filtering & sorting functionalities, payment gateway etc",
-    techStack: ["HTML", "CSS", "JavaScript"],
+    techStack: ["HTML", "CSS", "JavaScript", "Chakra-UI"],
     presentationLink: null,
     liveLink: "https://preeminent-pavlova-f8e5b5.netlify.app/",
     githubLink: "https://github.com/Surajbnp/tanishq",

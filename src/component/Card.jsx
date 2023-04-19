@@ -1,4 +1,4 @@
-import { Box, Text, Flex } from "@chakra-ui/react";
+import { Box, Text, Flex, Tooltip } from "@chakra-ui/react";
 import React from "react";
 import styles from "./card.module.css";
 import {
@@ -56,9 +56,17 @@ const Card = ({
           </a>
         </Box>
         <Box>
-          <a href={githubLink} target="_blank">
-            <BsGithub size={30} />
-          </a>
+          {githubLink === null ? (
+            <Tooltip label="Link not available">
+              <Box>
+                <BsGithub size={30} color={"grey"} />
+              </Box>
+            </Tooltip>
+          ) : (
+            <a href={githubLink} target="_blank">
+              <BsGithub size={30} />
+            </a>
+          )}
         </Box>
       </Flex>
     </Box>

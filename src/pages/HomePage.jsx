@@ -221,7 +221,7 @@ const HomePage = () => {
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://api.whatsapp.com/send?phone=6206280964"
+                  href="https://api.whatsapp.com/send?phone=916206280964"
                 >
                   +91 6206280964
                 </a>
