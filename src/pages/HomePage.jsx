@@ -208,8 +208,8 @@ const HomePage = () => {
                 <BsFillTelephoneFill size={20} />
               </Box>
               <Box>
-                <a rel="noreferrer" target="_blank" href="tel:6206280964">
-                  +91 6206280964
+                <a rel="noreferrer" target="_blank" href="tel:9234851174">
+                  +91 9234851174
                 </a>
               </Box>
             </Flex>
@@ -221,9 +221,9 @@ const HomePage = () => {
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  href="https://api.whatsapp.com/send?phone=916206280964"
+                  href="https://api.whatsapp.com/send?phone=919234851174"
                 >
-                  +91 6206280964
+                  +91 9234851174
                 </a>
               </Box>
             </Flex>
