@@ -34,12 +34,41 @@ const Projects = [
       " Chakra-UI",
       "Nodejs",
       " Express",
-      "Mongoose"
-
+      "Mongoose",
     ],
     presentationLink: null,
     liveLink: "https://team8-prepleaf-project.netlify.app/",
     githubLink: null,
+  },
+  {
+    image:
+      "https://camo.githubusercontent.com/09bdc606e85b762df952b2863c9cc59301c91954921ee1d879c75bbfc66c7877/68747470733a2f2f696d6775722e636f6d2f665951366e42682e706e67",
+    projectName: "Quiz Time",
+    desc: "Simple Quiz App crated in react. User can go and start attemting the quiz and can see the result. Multiple choice questions with responsive UI design.",
+    techStack: ["HTML", "CSS", "JavaScript", "React", "Chakra-UI"],
+    presentationLink: null,
+    liveLink: "http://quiztime-react.netlify.app/",
+    githubLink: "https://github.com/Surajbnp/React-Quiz",
+  },
+  {
+    image:
+      "https://camo.githubusercontent.com/bd089ef7ecd2d4030afde24697887adc38d629d29e8724f90dc8afe15716dfe8/68747470733a2f2f696d6775722e636f6d2f714a4f73737a392e706e67",
+    projectName: "Weather App",
+    desc: "GogetWetaher is a user-friendly weather application built with React and integrated with a weather API. Experience the convenience of automatic location detection that provides real-time weather details based on your current location.",
+    techStack: ["HTML", "CSS", "JavaScript", "React", "Chakra-UI", "Weather Api"],
+    presentationLink: null,
+    liveLink: "http://gogetweather.netlify.app/",
+    githubLink: "https://github.com/Surajbnp/WetherApp",
+  },
+  {
+    image:
+      "https://camo.githubusercontent.com/23c227f11917477c591d03d8ff8354dfc381e20f1dd0531fb865cbc7f70f465f/68747470733a2f2f696d6775722e636f6d2f44664f715a6a642e706e67",
+    projectName: "Track Me",
+    desc: "TrackMee is a simple task website, where can add new task, edit, delete and update task separately. Responsive and Modern UI designs for better user experiance with smooth backend.",
+    techStack: ["HTML", "CSS", "JavaScript", "React", "Chakra-UI"],
+    presentationLink: null,
+    liveLink: "https://trackmee.netlify.app/",
+    githubLink: "https://github.com/Surajbnp/TrackMe",
   },
   {
     image:

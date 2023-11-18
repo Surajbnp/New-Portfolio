@@ -70,7 +70,23 @@ const skills = [
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png",
     name: "Vs Code",
-  },
+  },{
+    image:
+      "https://store.crowdin.com/_next/image?url=https%3A%2F%2Fdeveloper.app.crowdin.net%2Fassets%2F59f24eae-f9ac-4fee-b260-eec7330d7590%3Fwidth%3D192%26format%3Dwebp&w=384&q=75",
+    name: "Figma",
+  },{
+    image : "https://www.gstatic.com/devrel-devsite/prod/va65162e8ce9aacc75e4d3c0cd6d166fc6ceaaf184fea0ff0eac1d9b62c0480be/firebase/images/touchicon-180.png",
+    name : "Firebase"
+  },{
+    image : "https://www.training-dev.fr/Img/Cours/Comprendre-et-utiliser-le-token-JWT/Comprendre-et-utiliser-le-token-JWT.png",
+    name : "JWT"
+  },{
+    image : "https://www.passportjs.org/images/logo.svg",
+    name : "Passport Js"
+  },{
+    image : "https://res.cloudinary.com/demo/image/upload/e_shadow:90,x_15,y_15,co_rgb:0B70B6/c_pad,ar_1.0/w_200,f_auto,q_auto/cloudinary_icon.png",
+    name : "Cloudinary"
+  }
 ];
 
 export default skills;

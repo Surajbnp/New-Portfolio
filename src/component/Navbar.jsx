@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Box w="100%" top="0" bg={"#EDF2F8"} px={4} position="fixed">
+      <Box w="100%" top="0" zIndex={1000} bg={"#EDF2F8"} px={4} position="fixed">
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <HStack
             spacing={8}

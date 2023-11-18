@@ -1,6 +1,8 @@
 .container{
     background-color: #FFFFFF;
     padding: 20px;
+    position: relative;
+    height: 70vh;
 }
 
 .container > p{
@@ -31,6 +33,11 @@
 .icons{
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
 }
 
 .icons > div{
@@ -41,9 +48,11 @@
     align-items: center;
     justify-content: center;
     transition: 0.7s;
+    border: 1px solid rgb(183, 180, 180);
 }
 
 .icons > div:hover{
    background-color: #f51720;
    color: white;
+   border: none;
 }

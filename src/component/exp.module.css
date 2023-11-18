@@ -1,0 +1,34 @@
+.blinkDiv {
+  width: 40px;
+  height: 40px;
+  animation: blink 1.5s infinite;
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  top: 20px;
+  left: -23px;
+}
+
+@keyframes blink {
+  0% {
+    transform: scale(0.33);
+  }
+  30% {
+    transform: scale(0.66);
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  60% {
+    opacity: 0.7;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}

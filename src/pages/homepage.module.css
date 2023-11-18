@@ -1,6 +1,6 @@
 .container {
   left: 0px;
-  margin-top: 65px;
+  margin-top: 64px;
   width: 100%;
 }
 
@@ -41,11 +41,7 @@ body {
 .sec1 {
   font-family: "Ubuntu", sans-serif;
   justify-content: center;
-  background-image: url("https://tailwindui.com/img/beams-home@95.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-bottom: 1px solid #b0b7c0;
+  background-color: #edf2f8;
   width: 100%;
   height: fit-content;
 }
@@ -56,13 +52,13 @@ body {
 }
 
 .small1 {
-  background-image: url("https://user-images.githubusercontent.com/97525465/232208523-4925c1ae-5e6a-4c81-a88c-e9b7f8a00a11.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.small1 > img {
+  width: 70%;
 }
 
 .resumebtn {
@@ -129,8 +125,13 @@ body {
 .aboutSec {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 40px;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.aboutSec > ::-webkit-scrollbar {
+  display: none;
 }
 
 /* Section 3 CSS started  -----------------------------------------------> */
@@ -240,7 +241,6 @@ body {
     height: 40vh;
   }
 
-
   /* --------------------------------- */
 
   .sec2 {
@@ -257,7 +257,7 @@ body {
     background-size: contain;
   }
 
-    .sec2 > div:nth-child(1) {
+  .sec2 > div:nth-child(1) {
     background-size: 530px;
   }
 
@@ -276,7 +276,6 @@ body {
     gap: 15px;
     grid-template-columns: repeat(2, 1fr);
   }
-  
 
   /* ------------------------------------------ */
 
@@ -303,14 +302,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-
-
   .active {
     font-weight: 600;
     border-bottom: none;
     color: #f51720;
   }
-
 
   .container > div {
     padding: 20px;
@@ -348,7 +344,7 @@ body {
     height: 40vh;
   }
 
-  .small1{
+  .small1 {
     background-size: 530px;
   }
 
@@ -408,16 +404,16 @@ body {
   .contact {
     gap: 10px;
   }
-  .contact > div > div{
+  .contact > div > div {
     font-size: 16px;
     font-weight: 400;
   }
 
-  .contact > div{
+  .contact > div {
     gap: 10px;
   }
 
-  .lastTxt{
+  .lastTxt {
     font-size: 10px;
     padding: 5px;
   }
