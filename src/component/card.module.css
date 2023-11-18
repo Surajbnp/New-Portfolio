@@ -1,8 +1,7 @@
 .container{
     background-color: #FFFFFF;
     padding: 20px;
-    position: relative;
-    height: 70vh;
+    height: fit-content;
 }
 
 .container > p{
@@ -11,7 +10,6 @@
 
 .name{
     font-size: 20px;
-    padding: 10px;
 }
 
 .desc{
@@ -33,11 +31,7 @@
 .icons{
     justify-content: space-between;
     align-items: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .icons > div{
@@ -48,7 +42,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.7s;
-    border: 1px solid rgb(183, 180, 180);
+    border: 1px solid rgb(236, 233, 233);
 }
 
 .icons > div:hover{

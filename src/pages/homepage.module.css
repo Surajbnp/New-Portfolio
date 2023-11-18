@@ -360,12 +360,12 @@ body {
   }
 
   .sec2 > div:nth-child(1) {
-    height: 45vh;
-    background-size: 330px;
+    height: 40vh;
+    background-size: 300px;
   }
 
   .aboutSec {
-    font-size: 12px;
+    font-size: 16px;
     padding: 30px;
     gap: 20px;
   }
@@ -417,4 +417,5 @@ body {
     font-size: 10px;
     padding: 5px;
   }
+
 }

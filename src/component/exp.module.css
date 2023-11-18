@@ -3,7 +3,7 @@
   height: 40px;
   animation: blink 1.5s infinite;
   position: absolute;
-  background-color: red;
+  background-color:rgb(252, 64, 64);
   border-radius: 50%;
   top: 20px;
   left: -23px;
@@ -17,10 +17,10 @@
     transform: scale(0.66);
   }
   40% {
-    opacity: 1;
+    opacity: 0.8;
   }
   50% {
-    opacity: 0.8;
+    opacity: 0.6;
   }
   60% {
     opacity: 0.7;

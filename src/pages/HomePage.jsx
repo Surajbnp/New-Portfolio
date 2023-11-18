@@ -78,7 +78,7 @@ const HomePage = () => {
           </Box>
         </Flex>
         <Box className={styles.small1}>
-         <img src="https://imgur.com/QY11hiM.png" alt="profile_img" />
+          <img src="https://imgur.com/QY11hiM.png" alt="profile_img" />
         </Box>
       </Flex>
       <Box id="section2" w={"100%"} boxSize={"border-box"}>
@@ -86,12 +86,13 @@ const HomePage = () => {
           All<span className={styles.redTxt}>About</span> Me & My{" "}
           <span className={styles.redTxt}>Experience</span>
         </Text>
-        <Flex pb={'50px'} display={"flex"} justifyContent={"center"} gap={5}>
+        <Flex pb={"50px"} display={"flex"} justifyContent={"center"} gap={5}>
           <Button
             onClick={showAbout}
             bg={showExp ? null : "#f51720"}
             color={showExp ? "black" : "white"}
             _hover={"none"}
+            fontSize={{base : '14px', md : "16px"}}
           >
             About me
           </Button>
@@ -100,6 +101,7 @@ const HomePage = () => {
             bg={showExp ? "#f51720" : null}
             color={showExp ? "white" : "black"}
             _hover={"none"}
+            fontSize={{base : '14px', md : "16px"}}
           >
             Experience
           </Button>
@@ -107,7 +109,9 @@ const HomePage = () => {
         <Flex className={styles.sec2}>
           <Box></Box>
           <Box className={styles.aboutSec}>
-            {showExp ? <ExpCard /> : (
+            {showExp ? (
+              <ExpCard />
+            ) : (
               <>
                 {" "}
                 <Box>
@@ -122,17 +126,6 @@ const HomePage = () => {
                       more optimized, ethical and accessible ways to solve the
                       common problems that we are facing with our day-to-day
                       life.
-                    </li>
-                  </ul>
-                </Box>
-                <Box>
-                  <ul>
-                    <li>
-                      I'm very passionate to the computer's & smartphones from
-                      my childhood. People always call's me to fix their
-                      problems in their smartphone and i'm really enjoying to do
-                      this kind of help. That's how my intrest in this field is
-                      growing day by day.
                     </li>
                   </ul>
                 </Box>
