@@ -18,7 +18,7 @@ import resumePDF from "../resume/Suraj_Kumar_Gupta_Resume.pdf";
 import { FaDownload } from "react-icons/fa";
 import ExpCard from "../component/ExpCard";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
 const HomePage = () => {
   const [showExp, setExp] = useState(false);
@@ -114,7 +114,7 @@ const HomePage = () => {
           </Button>
         </Flex>
         <Flex className={styles.sec2}>
-          <Bounce clear>
+          <Zoom>
             <Box></Box>
             <Box className={styles.aboutSec}>
               {showExp ? (
@@ -153,7 +153,7 @@ const HomePage = () => {
                 </>
               )}
             </Box>
-          </Bounce>
+          </Zoom>
         </Flex>
       </Box>
       <Box className={styles.sec3} id="section3">
@@ -162,28 +162,28 @@ const HomePage = () => {
           <span className={styles.redTxt}>Projects</span>
         </Text>
         <Box className={styles.projSec}>
-          <Bounce Clear>
+          <Zoom>
             {Projects.map((e) => {
               return <Card {...e} />;
             })}
-          </Bounce>
+          </Zoom>
         </Box>
       </Box>
       <Box id="section4" min-height="100vh">
         <Text className={styles.secName}>
           My
           <span className={styles.redTxt}>Technical</span>Skills
-          <Bounce Clear>
+          <Zoom>
             <Box className={styles.sec4}>
               {skills.map((e) => {
                 return <SmallCard {...e} />;
               })}
             </Box>
-          </Bounce>
+          </Zoom>
         </Text>
       </Box>
       <Box id="section5">
-        <Bounce Clear>
+        <Zoom>
           <Text className={styles.secName}>
             Github <span className={styles.redTxt}>Overview</span>
           </Text>
@@ -207,7 +207,7 @@ const HomePage = () => {
               <GithubCalendar username="Surajbnp" />
             </Flex>
           </Flex>
-        </Bounce>
+        </Zoom>
       </Box>
       <Box id="section6" bg={"#edf2f8"}>
         <Text className={styles.secName}>
