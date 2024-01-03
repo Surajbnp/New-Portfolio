@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/New-Portfolio/static/css/main.e8e5b53e.css",
-    "main.js": "/New-Portfolio/static/js/main.31ff3334.js",
+    "main.js": "/New-Portfolio/static/js/main.5d2d8f76.js",
     "static/js/787.05863bdd.chunk.js": "/New-Portfolio/static/js/787.05863bdd.chunk.js",
-    "static/media/Suraj_Kumar_Gupta_Resume.pdf": "/New-Portfolio/static/media/Suraj_Kumar_Gupta_Resume.9a8083733961f948f795.pdf",
+    "static/media/Suraj_Kumar_Gupta_Resume.pdf": "/New-Portfolio/static/media/Suraj_Kumar_Gupta_Resume.e48fa1f643dfe221814a.pdf",
     "index.html": "/New-Portfolio/index.html",
     "main.e8e5b53e.css.map": "/New-Portfolio/static/css/main.e8e5b53e.css.map",
-    "main.31ff3334.js.map": "/New-Portfolio/static/js/main.31ff3334.js.map",
+    "main.5d2d8f76.js.map": "/New-Portfolio/static/js/main.5d2d8f76.js.map",
     "787.05863bdd.chunk.js.map": "/New-Portfolio/static/js/787.05863bdd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8e5b53e.css",
-    "static/js/main.31ff3334.js"
+    "static/js/main.5d2d8f76.js"
   ]
 }
