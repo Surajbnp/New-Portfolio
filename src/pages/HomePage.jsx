@@ -19,6 +19,7 @@ import { FaDownload } from "react-icons/fa";
 import ExpCard from "../component/ExpCard";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
+import ImageSlider from "../component/ImageSlider";
 
 const HomePage = () => {
   const [showExp, setExp] = useState(false);
@@ -125,28 +126,48 @@ const HomePage = () => {
                   <Box>
                     <ul>
                       <li>
-                        Hello! My name is Suraj Kumar Gupta and I am a Full
-                        Stack Developer, passionate about building digital
-                        products that improve everyday experience for people. I
-                        love to work on exciting projects that test what I've
-                        learnt, whilst being exposed to the power and potential
-                        of the ever-evolving technologies around us. I'm always
-                        looking for better, more optimized, ethical and
-                        accessible ways to solve the common problems that we are
-                        facing with our day-to-day life.
+                        Welcome! I'm Suraj Kumar Gupta, a dedicated Full Stack
+                        Developer based in Bengaluru. With a passion for
+                        crafting digital experiences that enrich daily life, I
+                        bring expertise in a range of cutting-edge technologies
+                        and a commitment to excellence.
                       </li>
                     </ul>
                   </Box>
                   <Box>
                     <ul>
                       <li>
-                        I have completed 'Full Stack Web Development' from Masai
-                        School, Bengaluru. Learnt various types of skills, like
-                        for frontend i learnt HTML5, CSS3, React, Redux,
-                        CharaUI, Material UI & for backend, i learnt Nodejs,
-                        Express, Mongoose, MongoDB & i also have knowledge about
-                        tools which we are using in develpoment like Git,
-                        Github, Npm, Postman, Cloudinary etc.
+                        My journey in web development has equipped me with a
+                        diverse skill set tailored to meet the evolving needs of
+                        modern digital landscapes. On the frontend, I wield the
+                        power of HTML5, CSS3, React, Redux, Chakra UI, and
+                        Material UI to create captivating user interfaces that
+                        captivate and engage. Meanwhile, on the backend, I
+                        leverage Node.js, Express, Mongoose, and MongoDB to
+                        architect robust and scalable server-side solutions.
+                      </li>
+                    </ul>
+                  </Box>
+                  <Box>
+                    <ul>
+                      <li>
+                        Driven by a relentless pursuit of excellence, I'm always
+                        on the lookout for better, more optimized, ethical, and
+                        accessible ways to solve common problems. Whether it's
+                        streamlining workflows, optimizing code for performance,
+                        or ensuring inclusivity in design, I'm dedicated to
+                        delivering solutions that surpass expectations.
+                      </li>
+                    </ul>
+                  </Box>
+                  <Box>
+                    <ul>
+                      <li>
+                        Driven by a pursuit of excellence, I constantly seek
+                        better, more optimized solutions to common challenges.
+                        From streamlining workflows to enhancing performance and
+                        ensuring accessibility, I prioritize delivering top-tier
+                        results that exceed expectations.
                       </li>
                     </ul>
                   </Box>
@@ -181,6 +202,9 @@ const HomePage = () => {
             </Box>
           </Zoom>
         </Text>
+        <Box>
+          <ImageSlider />
+        </Box>
       </Box>
       <Box id="section5">
         <Zoom>

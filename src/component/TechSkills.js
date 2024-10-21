@@ -86,6 +86,16 @@ const skills = [
   },{
     image : "https://res.cloudinary.com/demo/image/upload/e_shadow:90,x_15,y_15,co_rgb:0B70B6/c_pad,ar_1.0/w_200,f_auto,q_auto/cloudinary_icon.png",
     name : "Cloudinary"
+  },
+  {
+    image : 'https://propuskator.com/wp-content/uploads/2021/06/upravlenie-ustrojstvami-2smart-cloud-s-pomoshhyu-telegram-bota.png',
+    name : "Telegram Bot"
+  },{
+    image : 'https://cdn3d.iconscout.com/3d/premium/thumb/web-3-5796855-4863023.png?f=webp',
+    name : "Web3"
+  },{
+    image : 'https://api.nuget.org/v3-flatcontainer/thirdweb/1.0.0/icon',
+    name : "Thirdweb"
   }
 ];
 
