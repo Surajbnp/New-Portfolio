@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/New-Portfolio/static/css/main.e8e5b53e.css",
-    "main.js": "/New-Portfolio/static/js/main.5d2d8f76.js",
+    "main.css": "/New-Portfolio/static/css/main.4e09e504.css",
+    "main.js": "/New-Portfolio/static/js/main.e3ca7769.js",
     "static/js/787.05863bdd.chunk.js": "/New-Portfolio/static/js/787.05863bdd.chunk.js",
-    "static/media/Suraj_Kumar_Gupta_Resume.pdf": "/New-Portfolio/static/media/Suraj_Kumar_Gupta_Resume.e48fa1f643dfe221814a.pdf",
+    "static/media/Suraj_Kumar_Gupta_Resume.pdf": "/New-Portfolio/static/media/Suraj_Kumar_Gupta_Resume.70a9c6b7d505f4bb690a.pdf",
+    "static/media/slick.svg": "/New-Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/New-Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/New-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/New-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/New-Portfolio/index.html",
-    "main.e8e5b53e.css.map": "/New-Portfolio/static/css/main.e8e5b53e.css.map",
-    "main.5d2d8f76.js.map": "/New-Portfolio/static/js/main.5d2d8f76.js.map",
+    "main.4e09e504.css.map": "/New-Portfolio/static/css/main.4e09e504.css.map",
+    "main.e3ca7769.js.map": "/New-Portfolio/static/js/main.e3ca7769.js.map",
     "787.05863bdd.chunk.js.map": "/New-Portfolio/static/js/787.05863bdd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8e5b53e.css",
-    "static/js/main.5d2d8f76.js"
+    "static/css/main.4e09e504.css",
+    "static/js/main.e3ca7769.js"
   ]
 }
