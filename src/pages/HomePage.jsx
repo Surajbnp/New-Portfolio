@@ -57,7 +57,7 @@ const HomePage = () => {
           <Fade left>
             <Box textAlign={"start"}>
               <Text fontSize={{ base: "18px", md: "25px" }}>
-                Hello, my name is
+                Hello, This is
               </Text>
               <Text fontSize={{ base: "30px", md: "50px" }}>
                 Suraj Kumar Gupta
@@ -85,7 +85,7 @@ const HomePage = () => {
 
         <Box className={styles.small1}>
           <Fade right>
-            <img src="https://imgur.com/QY11hiM.png" alt="profile_img" />
+            <img src="https://res.cloudinary.com/dddnxiqpq/image/upload/v1729509532/cropped_image_mvnkhw.png" alt="profile_img" />
           </Fade>
         </Box>
       </Flex>
@@ -324,6 +324,7 @@ const HomePage = () => {
         Designed & Made With <span style={{ color: "red" }}>❤</span> By SRJ,
         2023 All rights reserved.
       </Text>
+     
     </Box>
   );
 };

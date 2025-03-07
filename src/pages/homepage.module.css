@@ -143,13 +143,8 @@ body {
 .projSec {
   display: grid;
   padding: 40px;
-  gap: 70px;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.projSec > div {
-  border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  gap: 60px 40px;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /* Section 4 CSS started  -----------------------------------------------> */

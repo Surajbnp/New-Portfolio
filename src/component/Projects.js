@@ -1,6 +1,46 @@
 const Projects = [
   {
     image:
+      "https://res.cloudinary.com/dddnxiqpq/image/upload/v1741335638/Untitled_design_1_qj9j39.jpg",
+    projectName: "Zuramarket (Web3 Marketplace)",
+    desc: "A Web3 marketplace of Zuraverse, where user can buy/sell NFTs, connect thier evm wallet, make web3 transactions & manage thier profile.",
+    techStack: [
+      "React",
+      "Redux",
+      "JavaScript",
+      "ThirdWeb",
+      "MetaMask",
+      "HTML",
+      "CSS",
+      " Chakra-UI",
+      "AWS",
+      "Nodejs",
+      " Express",
+      "MongoDB"
+    ],
+    presentationLink: null,
+    liveLink: "https://main.dgwb4cij7nlvs.amplifyapp.com/",
+    githubLink: null,
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dddnxiqpq/image/upload/v1741335647/Untitled_design_2_x5gxsc.jpg",
+    projectName: "Lost Horizoners",
+    desc: "Lost Horizoners is a bike tour agency, providing bikes, organising tours, planning trips at very minimal cost.",
+    techStack: [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      " Chakra-UI",
+      "Mail server",
+    ],
+    presentationLink: null,
+    liveLink: "https://losthorizoners.com/",
+    githubLink: null,
+  },
+  {
+    image:
       "https://user-images.githubusercontent.com/101568818/232305827-3354019c-2060-41cd-bafb-4956c1805858.png",
     projectName: "Votek (live voting)",
     desc: "Votek is a live voting app, which allows you to create a vote(Admin) and see the live result of vote. As a user you can also vote & vote using the poll link which is shared by admin",

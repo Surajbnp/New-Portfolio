@@ -12,18 +12,15 @@ const SmallCard = ({ src, title }) => {
       borderRadius="lg"
       overflow="hidden"
       boxShadow="lg"
-      w={{ base: "250px", md: "300px" }} // Responsive width
-      h={{ base: "150px", md: "200px" }} // Responsive height
+      w={{ base: "100%", md: "300px" }} // Responsive width
+      h={{ base: "230px", md: "200px" }} // Responsive height
       textAlign="center"
     >
       <img
         src={src}
         alt={title}
-        style={{ width: "100%", height: "auto" }} // Maintain aspect ratio
+        style={{ width: "100%", height: "fit-content" }}
       />
-      <Text p={2} fontWeight="bold">
-        {title}
-      </Text>
     </Box>
   );
 };
