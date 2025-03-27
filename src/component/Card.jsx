@@ -112,7 +112,7 @@ const Card = ({
           />
         </Tooltip>
 
-        <Tooltip label={githubLink ? "GitHub" : "Not Available"} hasArrow>
+        <Tooltip label={githubLink !== null ? "GitHub" : "Not Available"} hasArrow>
           <IconButton
             as="a"
             href={githubLink || "#"}

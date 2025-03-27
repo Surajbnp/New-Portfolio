@@ -9,6 +9,17 @@
   left: -23px;
 }
 
+.current{
+  width: 40px;
+  height: 40px;
+  animation: blink 1.5s infinite;
+  position: absolute;
+  border-radius: 50%;
+  top: 20px;
+  left: -23px;
+  background-color:#3afd13;
+}
+
 @keyframes blink {
   0% {
     transform: scale(0.33);

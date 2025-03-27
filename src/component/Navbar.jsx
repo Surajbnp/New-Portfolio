@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   Box,
   Flex,
@@ -6,11 +5,9 @@ import {
   IconButton,
   useDisclosure,
   Text,
-  useColorMode,
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { Link as ScrollLink } from "react-scroll";
 import styles from "../pages/homepage.module.css";
 

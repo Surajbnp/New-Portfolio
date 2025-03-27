@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
 import styles from "./homepage.module.css";
 import WritingEffect from "../component/WritingEffect";
@@ -82,11 +82,18 @@ const HomePage = () => {
             </Box>
           </Fade>
         </Flex>
-
-        <Box className={styles.small1}>
-          <Fade right>
-            <img src="https://res.cloudinary.com/dddnxiqpq/image/upload/v1729509532/cropped_image_mvnkhw.png" alt="profile_img" />
-          </Fade>
+        <Box
+          w="100%"
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <Image
+            src="https://res.cloudinary.com/dddnxiqpq/image/upload/v1743073434/Beige_Aesthetic_Feminine_Business_Twitter_Profile_Picture_ren5yn.svg"
+            w="100%"
+            h="auto"
+            maxW="100%"
+          />
         </Box>
       </Flex>
       <Box id="section2" w={"100%"} boxSize={"border-box"}>
@@ -324,7 +331,6 @@ const HomePage = () => {
         Designed & Made With <span style={{ color: "red" }}>❤</span> By SRJ,
         2023 All rights reserved.
       </Text>
-     
     </Box>
   );
 };

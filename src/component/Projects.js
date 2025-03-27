@@ -82,17 +82,17 @@ const Projects = [
   },
   {
     image:
-      "https://camo.githubusercontent.com/09bdc606e85b762df952b2863c9cc59301c91954921ee1d879c75bbfc66c7877/68747470733a2f2f696d6775722e636f6d2f665951366e42682e706e67",
+      "https://res.cloudinary.com/dddnxiqpq/image/upload/v1741405037/Quiz_bfwio9.jpg",
     projectName: "Quiz Time",
     desc: "Simple Quiz App crated in react. User can go and start attemting the quiz and can see the result. Multiple choice questions with responsive UI design and you can see the result in the end of quiz after every attempt.",
     techStack: ["HTML", "CSS", "JavaScript", "React", "Chakra-UI"],
     presentationLink: null,
-    liveLink: "http://quiztime-react.netlify.app/",
+    liveLink: "https://time2quiz.netlify.app/",
     githubLink: "https://github.com/Surajbnp/React-Quiz",
   },
   {
     image:
-      "https://camo.githubusercontent.com/bd089ef7ecd2d4030afde24697887adc38d629d29e8724f90dc8afe15716dfe8/68747470733a2f2f696d6775722e636f6d2f714a4f73737a392e706e67",
+      "https://res.cloudinary.com/dddnxiqpq/image/upload/v1741405794/Quiz_1_wkujqm.jpg",
     projectName: "Weather App",
     desc: "GogetWetaher is a user-friendly weather application built with React and integrated with a weather API. Experience the convenience of automatic location detection that provides real-time weather details based on your current location.",
     techStack: [
@@ -104,24 +104,24 @@ const Projects = [
       "Weather Api",
     ],
     presentationLink: null,
-    liveLink: "http://gogetweather.netlify.app/",
+    liveLink: "https://getweatherinfoo.netlify.app/",
     githubLink: "https://github.com/Surajbnp/WetherApp",
   },
   {
     image:
-      "https://camo.githubusercontent.com/23c227f11917477c591d03d8ff8354dfc381e20f1dd0531fb865cbc7f70f465f/68747470733a2f2f696d6775722e636f6d2f44664f715a6a642e706e67",
-    projectName: "Track Me",
-    desc: "TrackMee is a simple task website, where can add new task, edit, delete and update task separately. Responsive and Modern UI designs for better user experiance with smooth backend and supported on every screen sizes.",
-    techStack: ["HTML", "CSS", "JavaScript", "React", "Chakra-UI"],
+      "https://zuratech.com/wp-content/uploads/2024/12/POMEME.png",
+    projectName: "Pomeme Tap",
+    desc: "Telegram Mini game. It's a web3 based game, where user earn coins while tapping on the screen, also there is tasks to earn more coins. coins will be converted to the crypto currency.",
+    techStack: ["HTML", "CSS", "JavaScript", "React", "Chakra-UI", "NodeJs", 'Express', "mongoDB", "TG Bot"],
     presentationLink: null,
-    liveLink: "https://trackmee.netlify.app/",
+    liveLink: "https://t.me/pomeme_bot?start=6556649968",
     githubLink: "https://github.com/Surajbnp/TrackMe",
   },
   {
     image:
-      "https://user-images.githubusercontent.com/77965216/193405972-afbf956f-f37b-42db-b92f-7a84a6ef8add.png",
-    projectName: "Everhour Clone",
-    desc: "Everhour is the time tracking website, which provides you the hassels free experiance to the user. You can track time of project, assign a project to someone, create a project & much more.",
+      "https://res.cloudinary.com/dddnxiqpq/image/upload/v1741780143/primem_wfqwl5.png",
+    projectName: "Prime Mates BC",
+    desc: "PMBC is web3 based game, where coins will be earned by just tapping and completing tasks on the app. It's on-chain (ETH based) game",
     techStack: [
       "React",
       "Redux",
@@ -132,10 +132,11 @@ const Projects = [
       "Nodejs",
       " Express",
       "Mongoose",
+      "TG Bot"
     ],
     presentationLink: null,
-    liveLink: "https://634ba21a2b95fd3fce7363a1--indiegogo-unit.netlify.app/",
-    githubLink: "https://github.com/Surajbnp/Everhour-Clone",
+    liveLink: "https://t.me/Primemates_bot?profile?start=r6556649968",
+    githubLink: null,
   },
   {
     image:

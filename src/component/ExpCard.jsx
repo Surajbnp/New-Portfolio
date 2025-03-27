@@ -1,7 +1,7 @@
 import React from "react";
 import experience from "../component/Experience";
 import { Box, Flex, Text } from "@chakra-ui/react";
-import styles from "../component/exp.module.css"
+import styles from "../component/exp.module.css";
 
 const ExpCard = () => {
   return (
@@ -16,13 +16,15 @@ const ExpCard = () => {
               h={"200px"}
             >
               <Box
-                className={styles.blinkDiv}
+                className={`${
+                  e?.currentCompany === true ? styles.current : styles.blinkDiv
+                }`}
               ></Box>
               <Text fontSize={"18px"} fontWeight={600}>
                 {e.role}
               </Text>
               <Text>{e.company}</Text>
-              <Text fontSize={'14px'}>
+              <Text fontSize={"14px"}>
                 {"("}
                 <span>{e.from}</span> - <span>{e.to}</span>
                 {")"}

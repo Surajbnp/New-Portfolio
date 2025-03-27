@@ -44,11 +44,11 @@ const skills = [
     name: "TypeScript",
   },{
     image:
-      "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png",
+      "https://img.icons8.com/?size=512&id=74402&format=png",
     name: "MongoDB",
   },{
     image:
-      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/express-js-icon.png",
+      "https://cdn.prod.website-files.com/5e740d74e6787687577e9b38/61b8e5a07858344da7970a0b_express-js-blog-post-draftbit.png",
     name: "ExpressJS",
   },{
     image:
@@ -64,7 +64,7 @@ const skills = [
     name: "Git",
   },{
     image:
-      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+      "https://cdn.iconscout.com/icon/free/png-256/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945092.png?f=webp&w=256",
     name: "Postman",
   },{
     image:
@@ -75,13 +75,13 @@ const skills = [
       "https://store.crowdin.com/_next/image?url=https%3A%2F%2Fdeveloper.app.crowdin.net%2Fassets%2F59f24eae-f9ac-4fee-b260-eec7330d7590%3Fwidth%3D192%26format%3Dwebp&w=384&q=75",
     name: "Figma",
   },{
-    image : "https://www.gstatic.com/devrel-devsite/prod/va65162e8ce9aacc75e4d3c0cd6d166fc6ceaaf184fea0ff0eac1d9b62c0480be/firebase/images/touchicon-180.png",
+    image : "https://brandeps.com/logo-download/F/Firebase-logo-02.png",
     name : "Firebase"
   },{
-    image : "https://www.training-dev.fr/Img/Cours/Comprendre-et-utiliser-le-token-JWT/Comprendre-et-utiliser-le-token-JWT.png",
+    image : "https://img.icons8.com/?size=512&id=rHpveptSuwDz&format=png",
     name : "JWT"
   },{
-    image : "https://www.passportjs.org/images/logo.svg",
+    image : "https://miro.medium.com/v2/resize:fit:300/1*MipdKsttqecPnkKF1DL-qA.png",
     name : "Passport Js"
   },{
     image : "https://res.cloudinary.com/demo/image/upload/e_shadow:90,x_15,y_15,co_rgb:0B70B6/c_pad,ar_1.0/w_200,f_auto,q_auto/cloudinary_icon.png",
